@@ -6,12 +6,9 @@ export const JurnalApp = () => {
 
   return (
     <>
-      <BrowserRouter>
-        <AppTheme>
-          <AppRouter />
-        </AppTheme>
-      </BrowserRouter>
-
+      <AppTheme>
+        <AppRouter />
+      </AppTheme>
     </>
   )
 }
